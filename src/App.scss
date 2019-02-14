@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+.content{
+  min-height: 90vh !important;
+  background-color: rgb(255, 167, 236);
+}
+
+.header, .menu, .footer{
+  background-color: rgb(78, 231, 137) !important;
+}
+
+.ant-menu-item-selected{
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.main-container{
+  min-height: 80vh;
+  width: 90vw;
+  margin: 5vh 5vw;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.home-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-layout{
+  font-size: 3em;
+  font-weight: 625;
+  font-family: 'Dancing Script', cursiva;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p{
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-size: 1.5em;
+  }
+}
+
